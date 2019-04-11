@@ -93,9 +93,9 @@ window.onload = setInterval(printQuote, 20000);
 Ths changes the background color to a random rgba value;
 */
 const body = document.querySelector('body');
-function randomBackground () {
+function randomBackground() {
 	'use strict';
-	body.style.backgroundColor = randomColor;
+	body.style.backgroundColor = randomColor();
 }
 
 /*
